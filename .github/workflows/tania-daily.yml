@@ -2,8 +2,8 @@ name: TanIA - Análisis Diario El Peruano
 
 on:
   schedule:
-    # Todos los días a las 7:00 AM hora Perú (12:00 UTC)
-    - cron: "0 12 * * *"
+    # Todos los días a las 6:00 AM hora Perú (11:00 UTC)
+    - cron: "0 11 * * *"
 
   # Permite ejecución manual desde GitHub
   workflow_dispatch:
